@@ -23,6 +23,10 @@ public class ResultGenerator
 	public void Result() throws PSSexception
 	{
 		int d = processtlist.size();
+<<<<<<< HEAD
+=======
+		Sum_Time_around = Sum_Weighted_around = 0;
+>>>>>>> Added INSTALL, MANUAL, and initialised performance metrics for every algorithm simulation
 		for (int i = 0; i < d; i++)
 		{
 			processtlist.elementAt(i).Time_around = processtlist.elementAt(i).FinishTime

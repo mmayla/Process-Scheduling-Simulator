@@ -1,0 +1,24 @@
+The Process Scheduling Simulator starts from main method in source.java file and draws the GUI implemented in InputUI.java. You will need to configure an input file first.  An example is found in main project folder. To create a new one type the following in it:
+
+    1. First two lines are for your to write comments 
+
+    2. Third line is the number of processes.
+
+    3. For every process include a line in the input file. This line contains the following items separated by spaces: 
+
+    a. Serial number for the process beginning from 1 up to x (number of processes)  in the last line. 
+
+    b. The time the process arrived to the ready queue with accuracy up to one digit after the decimal point.
+
+    c. The time the process is expected to run for (CPU Burst)
+
+    d. The time the process has used the CPU for until now e.
+
+    e. The process priority p.
+
+From the GUI screen choose the input file from disk and the output folder, choose your quantum value q, and select the required algorithms or all.
+
+When you click Simulate, you will have another window, select each algorithm from the combo box and click show to see the graph. The graph shows the number of processes on the y-axis. The time line of the processor is shown in the x-axis. A horizontal line in the graph is the set of points from the time the process is scheduled (added to the ready queue), to the time it is either terminated or interrupted. Each of these lines are horizontal in the graph and corresponding to the process number, and represent a visualisation for the time the process is running in the processor.
+
+Finally Go to the output folder and check the generated text files in each algorithm folder. PSS generates three text files in the output folder grouped in subfolders named after the algorithm abbreviated name. The first file is just an output of the configuration parameters. This file can help you verify that you configured your input file and initial values of the context switching and quantum correctly. The second file is a log of all state transitions occurred to every process. The third results file is where the performance metrics are calculated. It shows the timing every process started on the processor, and the time it finished, and hence calculates the turnaround time as the arrival time subtracted from the finish time. The weighted turnaround time for every process is its turnaround time divided by the expected run time (CPU Burst) that you defined in the input file as y. The average turnaround time is the total turnaround time for all processes divided by the number of processes.  Same about average weighted turnaround time is the total for all processes divided by the number of processes.
+
