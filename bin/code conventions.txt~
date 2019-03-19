@@ -1,0 +1,4 @@
+- class name begin with Capital litter for each begining of a word
+- data member variable are all small letters (you can add '_' between two words) e.g datamember or data_member
+- methods name begin with a small letter word then a word with a capital letter e.g (callFunction) or (function)
+- constant variable are all capital letter word e.g (CONSTANT)

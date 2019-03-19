@@ -1,18 +1,12 @@
 #comment 1
-<<<<<<< HEAD
-# comment 2
-4
+# comment 2 6515548
+8
 #comment 3
-1 0.0 50 1
-2 20.5 20 4
-3 35.5 100 2
-4 35.2 40 3
-=======
-# comment 2 6542571
-4
-#comment 3
-1 6.5 60 1
-2 5.4 50 7
-3 4.2 40 5
-4 2.5 20 2
->>>>>>> Added INSTALL, MANUAL, and initialised performance metrics for every algorithm simulation
+1 6.5 60 8
+2 5.1 50 4
+3 1.5 10 5
+4 5.5 50 5
+5 5.4 50 1
+6 4.8 40 5
+7 8.6 80 6
+8 6.5 60 8

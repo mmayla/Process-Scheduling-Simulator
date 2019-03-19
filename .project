@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>InfinityDream_PSS</name>
+	<name>Process-Scheduling-Simulator</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
 		<buildCommand>
-<<<<<<< HEAD
-=======
-			<name>org.eclipse.xtext.ui.shared.xtextBuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
->>>>>>> Added INSTALL, MANUAL, and initialised performance metrics for every algorithm simulation
 			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>net.sourceforge.metrics.builder</name>
+			<name>org.eclipse.xtext.ui.shared.xtextBuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-		<nature>net.sourceforge.metrics.nature</nature>
-<<<<<<< HEAD
-=======
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
->>>>>>> Added INSTALL, MANUAL, and initialised performance metrics for every algorithm simulation
+		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
 </projectDescription>

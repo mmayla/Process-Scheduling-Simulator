@@ -1,0 +1,27 @@
+1. Download Eclipse JEE edition.
+
+2. Download e(fx)clipse 3.4.1 plugin from Eclipse Marketplace. It is a set of plugins who make developing JavaFX 2 application with your favorite IDE an excellent experience.
+
+3. Download the Process Scheduling Simulator as a zip file and unzip to your project folder or using the git command in where you want to create your project folder:
+git clone https://github.com/MMayla/Process-Scheduling-Simulator.git
+
+
+
+4. Create a Java FX project in eclipse and load the project from the folder where you unzipped or cloned it in step 3.
+
+5. Use JRE System Library 1.8 in the libraries of the build path in the project properties. Fix the JAVA_HOME, class path and your path environment variables as required. In Linux you add and adjust as required the following commands to your user .profile or .bashrc files:
+
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle/bin
+export PATH=$PATH:$JAVA_HOME 
+ 
+6. Download jcommon-1.0.23, jfreechart-1.0.18 sources, and add to the sources to the build path in eclipse project properties the following folders:
+
+jfreechart-1.0.18/source
+jcommon-1.0.23/src/main/java
+
+7. Download the following jar files and add to the build path:
+forms-1.3.0.jar
+miglayout15-swing.jar
+servlet-api.jar
+
+8. Compile and Run the project. The MANUAL document explains the input file configuration paramter, the GUI, and the generated reports and output files.
